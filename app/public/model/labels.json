@@ -1,0 +1,57 @@
+{
+  "vegetable_classes": [
+    "Broccoli",
+    "Cabbage",
+    "Cauliflower",
+    "Turnip"
+  ],
+  "disease_classes": [
+    "Broccoli Alternaria leaf spot",
+    "Broccoli Black rot",
+    "Broccoli Healthy leaf",
+    "Cabbage Black rot",
+    "Cabbage Grey mould",
+    "Cabbage Healthy leaf",
+    "Cabbage Leaf spots",
+    "Cabbage Tip burn",
+    "Cauliflower Alternaria leaf spot",
+    "Cauliflower Bacterial soft rot",
+    "Cauliflower Black rot",
+    "Cauliflower Healthy leaf",
+    "Cauliflower Yellow virus",
+    "Turnip Alternaria leaf spot",
+    "Turnip Black rot",
+    "Turnip Healthy leaf",
+    "Turnip Leaf spots"
+  ],
+  "vegetable_to_diseases": {
+    "Broccoli": [
+      "Alternaria leaf spot",
+      "Black rot",
+      "Healthy leaf"
+    ],
+    "Cabbage": [
+      "Black rot",
+      "Grey mould",
+      "Healthy leaf",
+      "Leaf spots",
+      "Tip burn"
+    ],
+    "Cauliflower": [
+      "Alternaria leaf spot",
+      "Bacterial soft rot",
+      "Black rot",
+      "Healthy leaf",
+      "Yellow virus"
+    ],
+    "Turnip": [
+      "Alternaria leaf spot",
+      "Black rot",
+      "Healthy leaf",
+      "Leaf spots"
+    ]
+  },
+  "total_disease_classes": 17,
+  "total_vegetables": 4,
+  "confidence_threshold": 0.60
+}

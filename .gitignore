@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*/.env
+
+# Dataset Directory (exclude raw image collection)
+dataset/
+*/dataset/
+*.zip
+*.tar.gz
+
+# Build outputs & caches
+dist/
+build/
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Model checkpoints (heavy binaries)
+*.keras
+*.h5
+*.ckpt
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

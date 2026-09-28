@@ -1,0 +1,172 @@
+{
+  "Broccoli Alternaria leaf spot": {
+    "vegetable": "Broccoli",
+    "disease": "Alternaria leaf spot",
+    "isHealthy": false,
+    "severity": "Medium",
+    "cause": "Fungal pathogen Alternaria brassicae and Alternaria brassicicola thriving in humid, warm conditions (15–25°C).",
+    "symptoms": "Concentric dark brown to black circular lesions with yellow halos on older leaves.",
+    "treatment": "Prune and dispose of severely infected foliage. Apply certified copper-based or bio-fungicides (e.g., Bacillus subtilis) during early morning.",
+    "prevention": "Avoid overhead watering; space plants for adequate airflow; practice 3-year crop rotation away from brassicas."
+  },
+  "Broccoli Black rot": {
+    "vegetable": "Broccoli",
+    "disease": "Black rot",
+    "isHealthy": false,
+    "severity": "High",
+    "cause": "Bacterium Xanthomonas campestris pv. campestris spread via splashing water, infected seeds, and agricultural tools.",
+    "symptoms": "Characteristic V-shaped yellow chlorotic lesions starting at leaf margins with blackened veins.",
+    "treatment": "Immediately remove infected plants to prevent field spread; apply preventive copper hydroxide sprays to adjacent healthy crops.",
+    "prevention": "Use certified disease-free hot-water-treated seeds, control brassica weeds, and implement strict drip irrigation."
+  },
+  "Broccoli Healthy leaf": {
+    "vegetable": "Broccoli",
+    "disease": "Healthy leaf",
+    "isHealthy": true,
+    "severity": "None",
+    "cause": "Optimal plant health and vigor.",
+    "symptoms": "Uniform deep green/blue-green coloration with smooth waxy texture and no spots or blemishes.",
+    "treatment": "No disease detected. Keep monitoring and water properly at the base.",
+    "prevention": "Maintain balanced nitrogen-phosphorus-potassium fertilization, consistent soil moisture, and periodic scouting."
+  },
+  "Cabbage Black rot": {
+    "vegetable": "Cabbage",
+    "disease": "Black rot",
+    "isHealthy": false,
+    "severity": "High",
+    "cause": "Xanthomonas campestris bacterial infection through hydathodes along the leaf edge.",
+    "symptoms": "V-shaped yellow wedges extending from leaf borders inward; vascular leaf veins turn brown to black.",
+    "treatment": "Rogue out infected heads; sanitize cultivation tools between rows; apply protective bactericides.",
+    "prevention": "Rotate crops with non-cruciferous plants for at least 3 years; maintain raised planting beds to improve drainage."
+  },
+  "Cabbage Grey mould": {
+    "vegetable": "Cabbage",
+    "disease": "Grey mould",
+    "isHealthy": false,
+    "severity": "High",
+    "cause": "Fungus Botrytis cinerea attacking stressed or wounded tissue in cool, damp, stagnant microclimates.",
+    "symptoms": "Water-soaked lesions covered in fuzzy greyish-brown spore carpets on outer leaves.",
+    "treatment": "Carefully remove and bag infected outer wrapper leaves; apply registered fungicides like fludioxonil or bio-protectants.",
+    "prevention": "Ensure high air circulation, avoid damaging leaves during weeding, and reduce greenhouse/tunnel humidity."
+  },
+  "Cabbage Healthy leaf": {
+    "vegetable": "Cabbage",
+    "disease": "Healthy leaf",
+    "isHealthy": true,
+    "severity": "None",
+    "cause": "Optimal growth conditions with no detected pathogens.",
+    "symptoms": "Crisp, robust leaves with characteristic natural bloom and uniform hue.",
+    "treatment": "No disease detected. Keep monitoring and water properly without wetting head foliage.",
+    "prevention": "Continue regular pest scouting (cabbage moths, aphids) and mulch beds to preserve steady moisture."
+  },
+  "Cabbage Leaf spots": {
+    "vegetable": "Cabbage",
+    "disease": "Leaf spots",
+    "isHealthy": false,
+    "severity": "Medium",
+    "cause": "Cercospora brassicicola or Pseudocercosporella capsellae fungal infections.",
+    "symptoms": "Small circular to oval pale tan spots with distinct dark borders across leaf blades.",
+    "treatment": "Strip lower damaged leaves; apply organic neem extract or systemic fungicide according to label directions.",
+    "prevention": "Destroy old crop debris immediately after harvest; do not work in wet fields."
+  },
+  "Cabbage Tip burn": {
+    "vegetable": "Cabbage",
+    "disease": "Tip burn",
+    "isHealthy": false,
+    "severity": "Low",
+    "cause": "Physiological calcium deficiency in rapidly expanding inner leaves caused by fluctuating water supply or rapid growth.",
+    "symptoms": "Browning and marginal necrosis (drying/curling) on inner leaf tips.",
+    "treatment": "Correct soil moisture fluctuations with automated drip lines; apply calcium nitrate foliar spray.",
+    "prevention": "Avoid excess nitrogen fertilizer that accelerates rapid leaf expansion; maintain soil pH between 6.0 and 6.8."
+  },
+  "Cauliflower Alternaria leaf spot": {
+    "vegetable": "Cauliflower",
+    "disease": "Alternaria leaf spot",
+    "isHealthy": false,
+    "severity": "Medium",
+    "cause": "Alternaria species infecting foliage during periods of extended leaf wetness.",
+    "symptoms": "Concentric target-like rings with yellow chlorotic margins on wrapper and outer leaves.",
+    "treatment": "Apply targeted copper soap or biofungicides; eliminate severely spotted outer leaves.",
+    "prevention": "Utilize wide row spacing to accelerate dew drying; avoid overhead sprinkler irrigation."
+  },
+  "Cauliflower Bacterial soft rot": {
+    "vegetable": "Cauliflower",
+    "disease": "Bacterial soft rot",
+    "isHealthy": false,
+    "severity": "Critical",
+    "cause": "Pectobacterium carotovorum (formerly Erwinia) entering through insect wounds or handling cracks.",
+    "symptoms": "Rapidly expanding mushy, slimy water-soaked lesions with a distinct foul odor.",
+    "treatment": "Immediately destroy infected plants; do not compost. Disinfect all tools and hands.",
+    "prevention": "Control chewing insect pests (flea beetles, caterpillars) that create entry wounds; ensure sharp field drainage."
+  },
+  "Cauliflower Black rot": {
+    "vegetable": "Cauliflower",
+    "disease": "Black rot",
+    "isHealthy": false,
+    "severity": "High",
+    "cause": "Xanthomonas campestris pv. campestris bacterial pathogen.",
+    "symptoms": "Marginal V-shaped yellowing accompanied by dark blackened vein networks.",
+    "treatment": "Remove symptomatic plants; apply protective copper spray barriers to adjacent plants.",
+    "prevention": "Plant resistant cultivars, use certified pathogen-free transplants, and rotate brassicas out of the field for 3 years."
+  },
+  "Cauliflower Healthy leaf": {
+    "vegetable": "Cauliflower",
+    "disease": "Healthy leaf",
+    "isHealthy": true,
+    "severity": "None",
+    "cause": "Strong plant immunity and healthy growing environment.",
+    "symptoms": "Upright, broad, intact green leaves providing natural shade to the developing curd.",
+    "treatment": "No disease detected. Keep monitoring and water properly at the base.",
+    "prevention": "Maintain soil micronutrient balance (especially boron and molybdenum) and keep consistent moisture."
+  },
+  "Cauliflower Yellow virus": {
+    "vegetable": "Cauliflower",
+    "disease": "Yellow virus",
+    "isHealthy": false,
+    "severity": "High",
+    "cause": "Turnip Yellow Mosaic Virus (TYMV) or Cauliflower Mosaic Virus (CaMV) transmitted primarily by aphids and flea beetles.",
+    "symptoms": "Bright yellow mosaic mottling, vein clearing, leaf distortion, and stunted growth.",
+    "treatment": "Viral infections cannot be cured; remove and destroy infected plants to stop vector spread.",
+    "prevention": "Manage aphid vectors using reflective mulches and insecticidal soaps; eliminate wild cruciferous weed hosts."
+  },
+  "Turnip Alternaria leaf spot": {
+    "vegetable": "Turnip",
+    "disease": "Alternaria leaf spot",
+    "isHealthy": false,
+    "severity": "Medium",
+    "cause": "Alternaria brassicae fungal spores spread through wind and rain splash.",
+    "symptoms": "Small brown/black circular lesions expanding with concentric rings on turnip tops.",
+    "treatment": "Apply potassium bicarbonate or copper-based sprays; harvest healthy root crops promptly.",
+    "prevention": "Clear all brassica plant debris after harvest; practice multi-year crop rotation."
+  },
+  "Turnip Black rot": {
+    "vegetable": "Turnip",
+    "disease": "Black rot",
+    "isHealthy": false,
+    "severity": "High",
+    "cause": "Bacterial pathogen Xanthomonas campestris pv. campestris.",
+    "symptoms": "V-shaped yellow patches at leaf tips and darkening of leaf veins.",
+    "treatment": "Isolate affected section, prune outer affected leaves, and apply copper bactericide to healthy neighbors.",
+    "prevention": "Ensure hot-water treated seed usage, control brassica weed species, and avoid working when dew is present."
+  },
+  "Turnip Healthy leaf": {
+    "vegetable": "Turnip",
+    "disease": "Healthy leaf",
+    "isHealthy": true,
+    "severity": "None",
+    "cause": "Vibrant and balanced growth without physiological or biological stress.",
+    "symptoms": "Bright lush green serrated foliage free of discolorations or necrotic spots.",
+    "treatment": "No disease detected. Keep monitoring and water properly to support root bulb expansion.",
+    "prevention": "Ensure loose, well-draining soil and regular weeding to avoid root competition."
+  },
+  "Turnip Leaf spots": {
+    "vegetable": "Turnip",
+    "disease": "Leaf spots",
+    "isHealthy": false,
+    "severity": "Medium",
+    "cause": "Cercospora or Colletotrichum fungal spores under high humidity.",
+    "symptoms": "Scattered circular spots with pale centers and dark borders across turnip greens.",
+    "treatment": "Trim badly infected greens; apply approved organic sulfur or copper spray.",
+    "prevention": "Thin turnip seedlings properly for adequate airflow and utilize drip irrigation."
+  }
+}
