@@ -1,4 +1,20 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+function getApiBaseUrl() {
+  if (import.meta.env.VITE_API_URL) {
+    let url = import.meta.env.VITE_API_URL;
+    if (!url.startsWith('http://') && !url.startsWith('https://')) {
+      url = `https://${url}`;
+    }
+    return url.endsWith('/api') ? url : `${url.replace(/\/$/, '')}/api`;
+  }
+  if (typeof window !== 'undefined' && window.location.hostname.includes('onrender.com')) {
+    // Auto-detect matching Render API service domain
+    const host = window.location.hostname.replace('leafscan-web', 'leafscan-api');
+    return `https://${host}/api`;
+  }
+  return 'http://localhost:5000/api';
+}
+
+const API_BASE_URL = getApiBaseUrl();
 
 /**
  * Helper to fetch with JWT token and standard error handling
