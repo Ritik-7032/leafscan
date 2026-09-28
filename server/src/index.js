@@ -15,33 +15,18 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/leafscan';
 
-// Security Headers
-app.use(helmet());
-
-// CORS Configuration
-const allowedOrigin = process.env.CLIENT_URL;
-app.use(
-  cors({
-    origin: (origin, callback) => {
-      // Allow requests with no origin (like mobile apps, curl, server-to-server) or matching CLIENT_URL
-      if (!origin || !allowedOrigin || allowedOrigin === '*' || origin === allowedOrigin) {
-        callback(null, true);
-      } else {
-        callback(null, true); // Dev fallback for preview environments
-      }
-    },
-    credentials: true,
-  })
-);
+// Security & CORS
+app.use(helmet({ crossOriginResourcePolicy: false }));
+app.use(cors());
 
 // Body Parser with safe payload limit
-app.use(express.json({ limit: '200kb' }));
+app.use(express.json({ limit: '500kb' }));
 
-// Global Rate Limiting: 60 req/min per IP
+// Global Rate Limiting: 300 req/min per IP
 const globalLimiter = rateLimit({
   windowMs: 60 * 1000,
-  max: 60,
-  message: { error: 'Rate limit exceeded. Maximum 60 requests per minute.' },
+  max: 300,
+  message: { error: 'Rate limit exceeded. Please try again in a minute.' },
   standardHeaders: true,
   legacyHeaders: false,
 });
@@ -65,9 +50,9 @@ app.use((err, req, res, next) => {
 
 // MongoDB Connection & Server Launch
 async function startServer() {
-  app.listen(PORT, () => {
-    console.log(`[+] LeafScan Backend running on http://localhost:${PORT}`);
-    console.log(`    - Health Check: http://localhost:${PORT}/api/health`);
+  const server = app.listen(PORT, '0.0.0.0', () => {
+    console.log(`[+] LeafScan Backend running on port ${PORT}`);
+    console.log(`    - Health Check: /api/health`);
   });
 
   if (MONGO_URI && !MONGO_URI.includes('<username>')) {
