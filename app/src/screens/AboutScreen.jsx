@@ -61,6 +61,57 @@ export default function AboutScreen() {
         </p>
       </div>
 
+      {/* Academic Minor Project & Developer Banner */}
+      <div className="rounded-3xl p-6 bg-slate-900 border-2 border-emerald-500/50 shadow-xl relative overflow-hidden text-white">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          
+          {/* Developer Card */}
+          <div className="flex items-start gap-4">
+            <img
+              src="/ritik_profile.jpg"
+              alt="Ritik Kumar"
+              className="w-16 h-20 rounded-xl object-cover object-[center_18%] border-2 border-emerald-400 shadow-lg shadow-emerald-950/80 shrink-0"
+            />
+            <div className="space-y-1">
+              <span className="text-xs font-bold text-emerald-400 uppercase tracking-wider block">
+                Project Developer
+              </span>
+              <h3 className="text-lg font-black text-white">
+                Ritik Kumar
+              </h3>
+              <p className="text-sm font-mono font-bold text-emerald-300">
+                Roll No: 2023UG2062
+              </p>
+              <p className="text-xs text-slate-300 font-medium">
+                Batch 2023 – 2027 • Semester 7
+              </p>
+            </div>
+          </div>
+
+          {/* Supervisor Card */}
+          <div className="flex items-start gap-3.5 border-t sm:border-t-0 sm:border-l border-slate-700 pt-4 sm:pt-0 sm:pl-5">
+            <div className="w-12 h-12 rounded-2xl bg-teal-600 text-white font-black text-lg flex items-center justify-center shadow-lg shadow-teal-700/50 shrink-0">
+              RP
+            </div>
+            <div className="space-y-1">
+              <span className="text-xs font-bold text-teal-400 uppercase tracking-wider block">
+                Project Supervisor
+              </span>
+              <h3 className="text-lg font-black text-white">
+                Dr. Rashmi Panda
+              </h3>
+              <p className="text-sm font-bold text-teal-300">
+                IIIT Ranchi
+              </p>
+              <p className="text-xs text-slate-300">
+                Indian Institute of Information Technology, Ranchi
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
       {/* Interactive Pipeline Architecture Walkthrough */}
       <div className="space-y-3.5">
         <h3 className="text-sm font-black text-slate-900 dark:text-white uppercase tracking-wider px-1 flex items-center gap-2">
