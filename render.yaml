@@ -1,5 +1,5 @@
 services:
-  # Backend Express API Service
+  # Backend Express API Web Service
   - type: web
     name: leafscan-api
     env: node
@@ -15,12 +15,13 @@ services:
       - key: CLIENT_URL
         value: "*"
       - key: MONGO_URI
-        sync: false # Set in Render dashboard (e.g. MongoDB Atlas connection string)
+        sync: false
     healthCheckPath: /api/health
 
-  # Frontend React Vite Static Site
-  - type: static
+  # Frontend React Vite Static Web Site
+  - type: web
     name: leafscan-web
+    env: static
     rootDir: app
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
@@ -28,9 +29,3 @@ services:
       - type: rewrite
         source: /*
         destination: /index.html
-    envVars:
-      - key: VITE_API_URL
-        fromService:
-          type: web
-          name: leafscan-api
-          property: host
